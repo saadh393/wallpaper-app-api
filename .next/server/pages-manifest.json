@@ -1,7 +1,9 @@
 {
-  "/_app": "pages/_app.js",
-  "/api/[id]": "pages/api/[id].js",
+  "/api/get/[packageName]": "pages/api/get/[packageName].js",
+  "/api/store/[[...slug]]": "pages/api/store/[[...slug]].js",
+  "/controller": "pages/controller.html",
   "/": "pages/index.html",
+  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
