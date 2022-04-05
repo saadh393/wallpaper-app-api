@@ -49,7 +49,8 @@ async function fetchFromGoogle(_blogId, _postId) {
 }
 function convertingToJson(data, packageName) {
     let structuredObject = [];
-    let arrayOfLinks = data.match(/https:\/\/1.bp.blogspot.com\S+s2048\S+webp/gim);
+    let arrayOfLinks = data.match(/https:\/\/((1\.bp\.blogspot\.com)|(blogger\.googleusercontent\.com))\S+s2048\S+webp/gim);
+    // let arrayOfLinks = data.match(/https:\/\/1.bp.blogspot.com\S+s2048\S+webp/gim);
     // let arrayOfLinks = data.match(/https:\/\/((1\.bp\.blogspot\.com)|(blogger\.googleusercontent\.com))\S+s2048\S+webp/gim);
     arrayOfLinks.forEach((link)=>{
         structuredObject.push({
