@@ -1,39 +1,38 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-5cd94c89d3acac5f.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js",
-    "static/development/_middlewareManifest.js"
+    "static/TCV_eaUGllFbBV030h4Fm/_buildManifest.js",
+    "static/TCV_eaUGllFbBV030h4Fm/_ssgManifest.js",
+    "static/TCV_eaUGllFbBV030h4Fm/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-fd82975a6094609f.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-c586b89e07064d4a.js",
+      "static/chunks/pages/index-c9857804d91c5a5f.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-fd82975a6094609f.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-c586b89e07064d4a.js",
+      "static/chunks/pages/_app-0065203e2706de25.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-fd82975a6094609f.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-c586b89e07064d4a.js",
+      "static/chunks/pages/_error-6679c1efb053c50e.js"
     ],
     "/controller": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/controller.js"
+      "static/chunks/webpack-fd82975a6094609f.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-c586b89e07064d4a.js",
+      "static/chunks/pages/controller-67691d748f52d982.js"
     ]
   },
   "ampFirstPages": []
